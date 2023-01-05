@@ -13,16 +13,16 @@ function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ms-auto me-4">
                             <li className="nav-item ">
-                                <Link to="/home" className="nav-link active" aria-current="page">Home  </Link>
+                                <Link to="/" className="nav-link active" aria-current="page">Home  </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active" href="#">Features</Link>
+                                <Link className="nav-link active" href="#">Services</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active" href="#">Pricing</Link>
+                                <Link className="nav-link active" href="#">Products</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active">Disabled</Link> 
+                                <Link className="nav-link active">Contact</Link> 
                             </li>
                         </ul>
                     </div>
