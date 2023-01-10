@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './HeroSection.css'
+import myvideo from '../videos/video-background.mp4'
 
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src="/videos/video-background.mp4" autoPlay loop muted />
+      <video src={myvideo} autoPlay loop muted />
       <h1> AWAITING YOUR NEXT ADVENTURE</h1>
       <p>What are your waiting for?</p>
       <div className="hero-btn">
