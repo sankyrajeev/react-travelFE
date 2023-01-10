@@ -1,7 +1,7 @@
 {
   "name": "react-travelfe",
   "version": "0.1.0",
-  "homepage": "https://sankyrajeev.gnpm runithub.io/react-travelFE",
+  "homepage": "https://sankyrajeev.github.io/react-travelFE",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
