@@ -15,7 +15,7 @@ function App() {
       <Navbar />
         <Routes>
         <Route
-              path="/react-travelFE"
+              path="/"
               element={<Home />}
             />
             <Route
