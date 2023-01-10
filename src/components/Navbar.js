@@ -14,7 +14,7 @@ function Navbar() {
                     <div className="collapse navbar-collapse text-center" id="navbarNav">
                         <ul className="navbar-nav ms-auto me-4">
                             <li className="nav-item ">
-                                <Link to="/" className="nav-link active text-white" aria-current="page">Home  </Link>
+                                <Link to="/react-travelFE" className="nav-link active text-white" aria-current="page">Home  </Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="/services" className="nav-link active text-white" >Services</Link>
