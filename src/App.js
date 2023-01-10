@@ -2,7 +2,11 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
-import Home from './components/Home';
+import Home from './components/pages/Home';
+import HeroSection from './components/HeroSection';
+import Services from './components/pages/Services';
+import SignUp from './components/pages/SignUp';
+import Products from './components/pages/Products';
 
 function App() {
   return (
@@ -14,6 +18,19 @@ function App() {
               path="/"
               element={<Home />}
             />
+            <Route
+              path="/services"
+              element={<Services />}
+            />
+            <Route
+              path="/sign-up"
+              element={<SignUp />}
+            />
+             <Route
+              path="/products"
+              element={<Products />}
+            />
+
 
         </Routes>
       
